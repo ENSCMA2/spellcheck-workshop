@@ -15,7 +15,7 @@ a = w*z; print('a = ' + str(a))
 b = w/z; print('b = ' + str(b))
 c = x**y; print('c = ' + str(c))
 d = c//a; print('d = ' + str(d))
-f = d % x print('f = ' + str(f))
+f = d % x; print('f = ' + str(f))
 
 myFirstBool = (4 == 5)
 mySecondBool = (56*4 < 65*5)
@@ -26,9 +26,6 @@ print(myFirstBool or mySecondBool)
 print(not myFirstBool)
 myFirstBool = (4 <= 5 and (5 >= 4 or not 6 == 7))
 print(myFirstBool)
-
-if myFirstBool:
-	print("myFirstBool is true!")
 
 myFirstList = [1,2,3,4]; print(myFirstList[0])
 print(myFirstList[-1])
@@ -43,6 +40,7 @@ print('3rd item onwards: ' + repr(myFirstList[2:]))
 listInList = [[1, 2, 3], [4,5,6],[7,8,9]]
 print(listInList[0][1])
 print(len(listInList))
+print(set(myFirstList))
 
 sentence = 'I love natural language processing.'
 splitSentence = sentence.split()
@@ -81,6 +79,10 @@ for i in myFirstDict:
 for i in listInList:
  for j in i:
    print(j)
+myFirstTuple = (1, 2)
+listOfTuples = [(1, 2), (3, 4), (5, 6)]
+for x, y in listOfTuples:
+    print(x + y)
 
 n = 6
 while n > 1:
