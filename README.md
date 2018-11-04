@@ -7,19 +7,19 @@ Workshop on building a Spell Check system given at LingHacks Workshops on Words 
 
 ## Requirements
 These demos use Python 3.6.
-`sh
+```sh
 pip install nltk
-`
+```
 ## Usage
 Spell Check Application:
-`sh
+```sh
 python main.py
-`
+```
 NLTK Tutorial:
-`sh
+```sh
 python intronltk.py
-`
+```
 Python Intro:
-`sh
+```sh
 python intropython.py
-`
+```
