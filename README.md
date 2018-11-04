@@ -13,13 +13,13 @@ pip install nltk
 ## Usage
 Spell Check Application:
 ```sh
-python main.py
+python spell-check/main.py
 ```
 NLTK Tutorial:
 ```sh
-python intronltk.py
+python basic-tools/intronltk.py
 ```
 Python Intro:
 ```sh
-python intropython.py
+python basic-tools/intropython.py
 ```
